@@ -1,0 +1,293 @@
+PS C:\Users\prade\Desktop\TS079_Pradeep Singh Billing System> git log
+commit fedfa9d01e4ec54bafd0c70dc775ceaafade463c (HEAD -> master)
+Merge: 1547a73 0639809
+Author: pradeep <pradeep.s@thinkbridge.in>
+Date:   Tue May 28 13:22:55 2024 +0530
+
+    Merge branch 'emergency-fix'
+
+commit 0639809b754106ce9ed8a71bce0612e361cd7fe1 (emergency-fix)
+Author: pradeep <pradeep.s@thinkbridge.in>
+Date:   Tue May 28 13:10:58 2024 +0530
+
+    forget password page added with change in signup page
+
+commit 1547a73bd6e1a2766e2f134a878a0fdcca62fc52
+Merge: 6cfa409 8f5bd81
+:...skipping...
+commit fedfa9d01e4ec54bafd0c70dc775ceaafade463c (HEAD -> master)
+Merge: 1547a73 0639809
+Author: pradeep <pradeep.s@thinkbridge.in>
+Date:   Tue May 28 13:22:55 2024 +0530
+
+    Merge branch 'emergency-fix'
+
+commit 0639809b754106ce9ed8a71bce0612e361cd7fe1 (emergency-fix)
+Author: pradeep <pradeep.s@thinkbridge.in>
+Date:   Tue May 28 13:10:58 2024 +0530
+
+    forget password page added with change in signup page
+
+commit 1547a73bd6e1a2766e2f134a878a0fdcca62fc52
+Merge: 6cfa409 8f5bd81
+Author: pradeep <pradeep.s@thinkbridge.in>
+Date:   Tue May 28 13:04:31 2024 +0530
+
+    Merge branch 'change-in-signup'
+
+commit 2e809a81a7f2b80b03dd5ca837ae93e712877644
+Author: pradeep <pradeep.s@thinkbridge.in>
+Date:   Tue May 28 12:58:00 2024 +0530
+
+    forget password page added
+
+commit 8f5bd81ed04c9428f84dc8376735c8c9c70827e2 (change-in-signup)
+Author: pradeep <pradeep.s@thinkbridge.in>
+Date:   Tue May 28 12:34:36 2024 +0530
+
+    changes done in signup page
+
+commit 6cfa409ba9c55a77e754078ea3c24f1b08e08129
+Author: pradeep <pradeep.s@thinkbridge.in>
+Date:   Tue May 28 12:28:02 2024 +0530
+
+:...skipping...
+commit fedfa9d01e4ec54bafd0c70dc775ceaafade463c (HEAD -> master)
+Merge: 1547a73 0639809
+Author: pradeep <pradeep.s@thinkbridge.in>
+Date:   Tue May 28 13:22:55 2024 +0530
+
+    Merge branch 'emergency-fix'
+
+commit 0639809b754106ce9ed8a71bce0612e361cd7fe1 (emergency-fix)
+Author: pradeep <pradeep.s@thinkbridge.in>
+Date:   Tue May 28 13:10:58 2024 +0530
+
+    forget password page added with change in signup page
+
+commit 1547a73bd6e1a2766e2f134a878a0fdcca62fc52
+Merge: 6cfa409 8f5bd81
+Author: pradeep <pradeep.s@thinkbridge.in>
+Date:   Tue May 28 13:04:31 2024 +0530
+
+    Merge branch 'change-in-signup'
+
+commit 2e809a81a7f2b80b03dd5ca837ae93e712877644
+Author: pradeep <pradeep.s@thinkbridge.in>
+Date:   Tue May 28 12:58:00 2024 +0530
+
+    forget password page added
+
+commit 8f5bd81ed04c9428f84dc8376735c8c9c70827e2 (change-in-signup)
+Author: pradeep <pradeep.s@thinkbridge.in>
+Date:   Tue May 28 12:34:36 2024 +0530
+
+    changes done in signup page
+
+commit 6cfa409ba9c55a77e754078ea3c24f1b08e08129
+Author: pradeep <pradeep.s@thinkbridge.in>
+Date:   Tue May 28 12:28:02 2024 +0530
+
+    changes in css file done
+
+commit b752120c817596817929e1cd1ea9fec52d192567
+Author: pradeep <pradeep.s@thinkbridge.in>
+Date:   Tue May 28 12:16:50 2024 +0530
+
+    login page and sign up page added
+~
+~
+(END)...skipping...
+commit fedfa9d01e4ec54bafd0c70dc775ceaafade463c (HEAD -> master)
+Merge: 1547a73 0639809
+Author: pradeep <pradeep.s@thinkbridge.in>
+Date:   Tue May 28 13:22:55 2024 +0530
+
+    Merge branch 'emergency-fix'
+
+commit 0639809b754106ce9ed8a71bce0612e361cd7fe1 (emergency-fix)
+Author: pradeep <pradeep.s@thinkbridge.in>
+Date:   Tue May 28 13:10:58 2024 +0530
+
+    forget password page added with change in signup page
+
+commit 1547a73bd6e1a2766e2f134a878a0fdcca62fc52
+Merge: 6cfa409 8f5bd81
+Author: pradeep <pradeep.s@thinkbridge.in>
+Date:   Tue May 28 13:04:31 2024 +0530
+
+    Merge branch 'change-in-signup'
+
+commit 2e809a81a7f2b80b03dd5ca837ae93e712877644
+Author: pradeep <pradeep.s@thinkbridge.in>
+Date:   Tue May 28 12:58:00 2024 +0530
+
+    forget password page added
+
+commit 8f5bd81ed04c9428f84dc8376735c8c9c70827e2 (change-in-signup)
+Author: pradeep <pradeep.s@thinkbridge.in>
+Date:   Tue May 28 12:34:36 2024 +0530
+
+    changes done in signup page
+
+commit 6cfa409ba9c55a77e754078ea3c24f1b08e08129
+Author: pradeep <pradeep.s@thinkbridge.in>
+Date:   Tue May 28 12:28:02 2024 +0530
+
+    changes in css file done
+
+commit b752120c817596817929e1cd1ea9fec52d192567
+Author: pradeep <pradeep.s@thinkbridge.in>
+Date:   Tue May 28 12:16:50 2024 +0530
+
+    login page and sign up page added
+~
+
+(END)...skipping...
+commit fedfa9d01e4ec54bafd0c70dc775ceaafade463c (HEAD -> master)
+Merge: 1547a73 0639809
+Author: pradeep <pradeep.s@thinkbridge.in>
+Date:   Tue May 28 13:22:55 2024 +0530
+
+    Merge branch 'emergency-fix'
+
+commit 0639809b754106ce9ed8a71bce0612e361cd7fe1 (emergency-fix)
+Author: pradeep <pradeep.s@thinkbridge.in>
+Date:   Tue May 28 13:10:58 2024 +0530
+
+    forget password page added with change in signup page
+
+commit 1547a73bd6e1a2766e2f134a878a0fdcca62fc52
+Merge: 6cfa409 8f5bd81
+Author: pradeep <pradeep.s@thinkbridge.in>
+Date:   Tue May 28 13:04:31 2024 +0530
+
+    Merge branch 'change-in-signup'
+
+commit 2e809a81a7f2b80b03dd5ca837ae93e712877644
+Author: pradeep <pradeep.s@thinkbridge.in>
+Date:   Tue May 28 12:58:00 2024 +0530
+
+    forget password page added
+
+commit 8f5bd81ed04c9428f84dc8376735c8c9c70827e2 (change-in-signup)
+Author: pradeep <pradeep.s@thinkbridge.in>
+Date:   Tue May 28 12:34:36 2024 +0530
+
+    changes done in signup page
+
+commit 6cfa409ba9c55a77e754078ea3c24f1b08e08129
+Author: pradeep <pradeep.s@thinkbridge.in>
+Date:   Tue May 28 12:28:02 2024 +0530
+
+    changes in css file done
+
+commit b752120c817596817929e1cd1ea9fec52d192567
+Author: pradeep <pradeep.s@thinkbridge.in>
+Date:   Tue May 28 12:16:50 2024 +0530
+
+    login page and sign up page added
+~
+
+(END)...skipping...
+commit fedfa9d01e4ec54bafd0c70dc775ceaafade463c (HEAD -> master)
+Merge: 1547a73 0639809
+Author: pradeep <pradeep.s@thinkbridge.in>
+Date:   Tue May 28 13:22:55 2024 +0530
+
+    Merge branch 'emergency-fix'
+
+commit 0639809b754106ce9ed8a71bce0612e361cd7fe1 (emergency-fix) 
+Author: pradeep <pradeep.s@thinkbridge.in>
+Date:   Tue May 28 13:10:58 2024 +0530
+
+    forget password page added with change in signup page
+
+commit 1547a73bd6e1a2766e2f134a878a0fdcca62fc52
+Merge: 6cfa409 8f5bd81
+Author: pradeep <pradeep.s@thinkbridge.in>
+commit fedfa9d01e4ec54bafd0c70dc775ceaafade463c (HEAD -> master)
+Merge: 1547a73 0639809
+Author: pradeep <pradeep.s@thinkbridge.in>
+Date:   Tue May 28 13:22:55 2024 +0530
+
+    Merge branch 'emergency-fix'
+
+commit 0639809b754106ce9ed8a71bce0612e361cd7fe1 (emergency-fix)
+commit fedfa9d01e4ec54bafd0c70dc775ceaafade463c (HEAD -> master)
+Merge: 1547a73 0639809
+Author: pradeep <pradeep.s@thinkbridge.in>
+Date:   Tue May 28 13:22:55 2024 +0530
+
+    Merge branch 'emergency-fix'
+
+commit 0639809b754106ce9ed8a71bce0612e361cd7fe1 (emergency-fix)
+Author: pradeep <pradeep.s@thinkbridge.in>
+Date:   Tue May 28 13:10:58 2024 +0530
+
+commit fedfa9d01e4ec54bafd0c70dc775ceaafade463c (HEAD -> master)
+Merge: 1547a73 0639809
+Author: pradeep <pradeep.s@thinkbridge.in>
+Date:   Tue May 28 13:22:55 2024 +0530
+
+    Merge branch 'emergency-fix'
+
+commit 0639809b754106ce9ed8a71bce0612e361cd7fe1 (emergency-fix)
+Author: pradeep <pradeep.s@thinkbridge.in>
+commit fedfa9d01e4ec54bafd0c70dc775ceaafade463c (HEAD -> master)
+Merge: 1547a73 0639809
+Author: pradeep <pradeep.s@thinkbridge.in>
+Date:   Tue May 28 13:22:55 2024 +0530
+
+    Merge branch 'emergency-fix'
+
+commit 0639809b754106ce9ed8a71bce0612e361cd7fe1 (emergency-fix)
+Author: pradeep <pradeep.s@thinkbridge.in>
+Date:   Tue May 28 13:10:58 2024 +0530
+
+    forget password page added with change in signup page
+
+commit 1547a73bd6e1a2766e2f134a878a0fdcca62fc52
+Merge: 6cfa409 8f5bd81
+Author: pradeep <pradeep.s@thinkbridge.in>
+Date:   Tue May 28 13:04:31 2024 +0530
+
+commit fedfa9d01e4ec54bafd0c70dc775ceaafade463c (HEAD -> master)
+Merge: 1547a73 0639809
+Author: pradeep <pradeep.s@thinkbridge.in>
+Date:   Tue May 28 13:22:55 2024 +0530
+
+    Merge branch 'emergency-fix'
+
+commit 0639809b754106ce9ed8a71bce0612e361cd7fe1 (emergency-fix)
+Author: pradeep <pradeep.s@thinkbridge.in>
+Date:   Tue May 28 13:10:58 2024 +0530
+
+    forget password page added with change in signup page
+
+commit 1547a73bd6e1a2766e2f134a878a0fdcca62fc52
+Merge: 6cfa409 8f5bd81
+Author: pradeep <pradeep.s@thinkbridge.in>
+commit fedfa9d01e4ec54bafd0c70dc775ceaafade463c (HEAD -> master)
+Merge: 1547a73 0639809
+Author: pradeep <pradeep.s@thinkbridge.in>
+Date:   Tue May 28 13:22:55 2024 +0530
+
+    Merge branch 'emergency-fix'
+
+commit 0639809b754106ce9ed8a71bce0612e361cd7fe1 (emergency-fix)
+Author: pradeep <pradeep.s@thinkbridge.in>
+Date:   Tue May 28 13:10:58 2024 +0530
+
+    forget password page added with change in signup page
+
+commit 1547a73bd6e1a2766e2f134a878a0fdcca62fc52
+Merge: 6cfa409 8f5bd81
+Author: pradeep <pradeep.s@thinkbridge.in>
+Date:   Tue May 28 13:04:31 2024 +0530
+
+    Merge branch 'change-in-signup'
+
+commit 2e809a81a7f2b80b03dd5ca837ae93e712877644
+Author: pradeep <pradeep.s@thinkbridge.in>
+:
