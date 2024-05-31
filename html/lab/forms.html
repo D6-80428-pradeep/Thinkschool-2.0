@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <form action="/submit_form" method="post">
+        <h2>Pet Preference Form</h2>
+
+        <!-- Text field -->
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+
+        <!-- Radio buttons -->
+        <p>Preferred Pet:</p>
+        <input type="radio" id="dog" name="pet" value="dog">
+        <label for="dog">Dog</label><br>
+        <input type="radio" id="cat" name="pet" value="cat">
+        <label for="cat">Cat</label><br>
+
+        <!-- Checkbox -->
+        <input type="checkbox" id="agree" name="agree" value="agree">
+        <label for="agree">I agree to the terms and conditions</label><br>
+        <br>
+
+        <!-- Submit button -->
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
