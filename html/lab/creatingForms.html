@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Webpage</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        form {
+            background-color: #34f14a;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Form</h1>
+
+    <!-- This is a form element -->
+    <form action="/new.html" method="get">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+
+        <p>Favorite Color:</p>
+        <input type="radio" id="red" name="color" value="red">
+        <label for="red">Red</label><br>
+        <input type="radio" id="blue" name="color" value="blue">
+        <label for="blue">Blue</label><br>
+
+        <p>Interests:</p>
+        <input type="checkbox" id="coding" name="interest" value="coding">
+        <label for="coding">Coding</label><br>
+        <input type="checkbox" id="music" name="interest" value="music">
+        <label for="music">Music</label><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
