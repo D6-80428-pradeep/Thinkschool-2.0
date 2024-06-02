@@ -1,0 +1,59 @@
+/* Introduction to CSS */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  /* CSS3 Selectors */
+  p:first-of-type {
+    color: #333;
+  }
+  
+  /* Pseudo Elements */
+  p::first-letter {
+    font-size: 20px;
+    color: red;
+  }
+  
+  /* Pesudo Classes */
+  a:hover {
+    color: orange;
+  }
+  
+  /* Introduction to Stylesheets */
+  /* This is an internal stylesheet */
+  
+  /* CSS Fonts */
+  h1 {
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  /* CSS Text */
+  p {
+    text-align: justify;
+    line-height: 1.6;
+  }
+  
+  /* CSS Box Model */
+  div {
+    width: 200px;
+    padding: 10px;
+    border: 2px solid #333;
+    margin: 20px auto;
+  }
+  
+  /* CSS Colors */
+  h2 {
+    color: #008080;
+  }
+  
+  /* CSS Background */
+  body {
+    background: linear-gradient(to right, #ffffff, #00ffff);
+  }
+  
+  /* CSS Gradients */
+  div {
+    background: linear-gradient(to bottom, red, yellow);
+  }
+  
