@@ -1,78 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Spicy Chicken Curry Recipe</title>
+    <title>Passport Application - Sign Up</title>
     <style>
         body {
-            font-family: 'Georgia', serif;
-            background-color: #FAF0E6;
-            color: #960404;
-            margin: 0;
-            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #F3F3F3;
+            padding: 50px;
         }
         .container {
-            width: 80%;
+            background-color: #FFF;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+            max-width: 500px;
             margin: 0 auto;
         }
-        h1 {
+        h2 {
             text-align: center;
-            padding: 20px 0;
-            font-size: 2.5em;
-            border-bottom: 2px solid #8B4513;
+            color: #333;
         }
-        img {
-            display: block;
-            margin: 20px auto;
-            width: 60%;
-            border-radius: 15px;
-            box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+        input[type="text"], input[type="email"], input[type="password"] {
+            width: 100%;
+            padding: 10px 0;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #CCC;
         }
-        .ingredients em, .instructions em {
-            color: #a20909;
-            font-size: 1.2em;
+        button {
+            background-color: #008CBA;
+            color: white;
+            padding: 15px 20px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
         }
-        .serving-suggestions {
-            font-style: italic;
-            text-align: center;
-            color: #006400;
-            font-size: 1.2em;
-            margin-top: 30px;
-            padding: 20px;
-            background-color: #FFF8DC;
-            border-radius: 15px;
-            box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+        button:hover {
+            background-color: #007B9A;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Spicy Chicken Curry</h1>
-        <img src="chicken.jpg" alt="Spicy Chicken Curry" height="350">
-        <div class="ingredients">
-            <h2>Ingredients</h2>
-            <ul>
-                <li><em>500g</em> chicken</li>
-                <li><em>2</em> onions, finely chopped</li>
-                <li><em>2</em> tomatoes, finely chopped</li>
-                <li><em>2 tablespoons</em> curry powder</li>
-                <li><em>1 teaspoon</em> red chili powder</li>
-                <li><em>1 tablespoon</em> ginger-garlic paste</li>
-            </ul>
-        </div>
-        <div class="instructions">
-            <h2>Instructions</h2>
-            <ol>
-                <li><em>Step 1:</em> Heat oil in a pan and sauté onions until golden brown.</li>
-                <li><em>Step 2:</em> Add ginger-garlic paste and sauté for a few minutes.</li>
-                <li><em>Step 3:</em> Add tomatoes, curry powder, and chili powder. Cook until tomatoes are soft.</li>
-                <li><em>Step 4:</em> Add chicken and cook until done. Serve hot.</li>
-            </ol>
-        </div>
-        <div class="serving-suggestions">
-            <h2>Serving Suggestions</h2>
-            <p>Enjoy with steamed rice or warm naan bread!</p>
-        </div>
+        <h2>Passport Application - Sign Up</h2>
+        <form>
+            <input type="text" name="firstname" placeholder=" First Name" required>
+            <input type="text" name="lastname" placeholder=" Last Name" required>
+            <input type="email" name="email" placeholder=" Email" required>
+            <input type="text" name="username" placeholder=" User Name" required>
+            <input type="password" name="password" placeholder=" Password" required>
+            <input type="password" name="confirmpassword" placeholder=" Confirm Password" required>
+            <button type="submit">Sign Up</button>
+        </form>
     </div>
 </body>
 </html>
+
 
