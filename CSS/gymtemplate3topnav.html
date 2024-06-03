@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Gym Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #deb2b2;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #d43c3c;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #da6d6d;
+  color: black;
+}
+
+/* Style the header */
+.header {
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  background-image: url('header.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(159, 126, 126);
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px;
+  position: relative;
+  color: rgb(216, 202, 202);
+}
+
+.column::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.column h2, .column p {
+  position: relative;
+  font-weight: bold;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #803737;
+  padding: 10px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Contact</a>
+</div>
+
+<div class="header">
+  <h2 style="color: #333;">Welcome to Our Gym</h2>
+</div>
+
+<div class="content">
+  <div style="background-image: url('cardio.jpeg');" class="column">
+    <h2>Cardio Section</h2>
+    <p>Our cardio section includes treadmills, ellipticals, and more.</p>
+  </div>
+  <div style="background-image: url('strength.jpeg');" class="column">
+    <h2>Strength Training</h2>
+    <p>Our strength training section includes free weights, resistance machines, and more.</p>
+  </div>
+  <div style="background-image: url('lclasses.jpeg');" class="column">
+    <h2>Classes</h2>
+    <p>We offer a variety of fitness classes, including yoga, Zumba, and more.</p>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Contact us for more information.</p>
+</div>
+
+</body>
+</html>
