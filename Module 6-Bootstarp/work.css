@@ -6,15 +6,19 @@ body, html {
 }
 
 #main-container {
-    background: linear-gradient(to right, #283E51, #4B79A1);
+    background: linear-gradient(to right, #6a11cb, #2575fc);
 }
 
 #left-side {
-    background: linear-gradient(to right, #6a11cb, #2575fc);
+    
     padding: 20px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     text-align: center;
+    z-index: 0;
+}
+#right-side{
+    z-index: 1;
 }
 
 #left-side h1 {
@@ -31,8 +35,8 @@ body, html {
 
 .bg-white {
     
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-top-left-radius: 140px;
+    border-bottom-left-radius: 140px;
 }
 
 h2 {
@@ -45,12 +49,12 @@ h2 {
 }
 
 .btn-primary {
-    background-color: #2575fc;
+    background-color: #068ee9;
     border-color: #2575fc;
 }
 
 .btn-primary:hover {
-    background-color: #1a5bb7;
+    background-color: #4972b3;
     border-color: #1a5bb7;
 }
 
@@ -62,4 +66,27 @@ h2 {
 .btn-secondary:hover {
     background-color: #5a6268;
     border-color: #545b62;
+}
+.active {
+    background-color: #007bff; /* Active color for primary button */
+    border-color: #007bff;
+    color: #070707;
+}
+#Login{
+    margin-top: 20px;
+    background-color: #fff;
+    color: black;
+}
+.btn-check:checked + .btn-primary,
+        .btn-check:checked + .btn-secondary {
+            background-color: #0d6efd;
+            color: #fff;
+}
+.btn-toggle .btn.active {
+    background-color: #007bff;
+    color: rgb(9, 171, 234);
+}
+.btn-toggle .btn:not(.active) {
+    background-color: #e3e5e8;
+    color: black;
 }
