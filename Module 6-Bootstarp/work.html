@@ -31,54 +31,83 @@
                 </div>
                 <form id="employeeForm" >
                     <h2>Apply as an Employee</h2>
-                    <div class="form-group">
-                        
-                        <input type="text" class="form-control" id="firstName" required placeholder="firstName">
-                    </div>
-                    <div class="form-group">
-                       
-                        <input type="text" class="form-control" id="lastName" required placeholder="lastName">
-                    </div>
-                    <div class="form-group">
-                        
-                        <input type="email" class="form-control" id="email" required placeholder="your email">
-                    </div>
-                    <div class="form-group">
-                        
-                        <input type="tel" class="form-control" id="phone" required placeholder="your phone">
-                    </div>
-                    <div class="form-group">
-                        
-                        <input type="password" class="form-control" id="password" required placeholder="password">
-                    </div>
-                    <div class="form-group">
-                        
-                        <input type="password" class="form-control" id="confirmPassword" required placeholder="confirmPassword">
-                    </div>
-                    <div class="form-group">
-                        <label for="securityQuestion">Please select your Security Question</label>
-                        <select class="form-control" id="securityQuestion" required >
-                            <option value="" disabled selected>Select a question</option >
-                            <option value="pet">What is your pet's name?</option>
-                            <option value="mother">What is your mother's maiden name?</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        
-                        <input type="text" class="form-control" id="securityAnswer" required placeholder="enter your answer">
-                    </div>
-                    <div class="form-group">
-                        
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="gender" id="male" value="male" required>
-                            <label class="form-check-label" for="male">Male</label>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="firstName" required placeholder="First Name">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="lastName" required placeholder="Last Name">
+                                </div>
+                            </div>
                         </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="gender" id="female" value="female" required>
-                            <label class="form-check-label" for="female">Female</label>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="email" required placeholder="Your Email">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" id="phone" required placeholder="Your Phone">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="password" required placeholder="Password">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="confirmPassword" required placeholder="Confirm Password">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="securityQuestion">Please select your Security Question</label>
+                                    <select class="form-control" id="securityQuestion" required>
+                                        <option value="" disabled selected>Select a question</option>
+                                        <option value="pet">What is your pet's name?</option>
+                                        <option value="mother">What is your mother's maiden name?</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="securityAnswer">Enter Your Answer</label>
+                                    <input type="text" class="form-control" id="securityAnswer" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Gender</label><br>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="gender" id="male" value="male" required>
+                                        <label class="form-check-label" for="male">Male</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="gender" id="female" value="female" required>
+                                        <label class="form-check-label" for="female">Female</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="container">
+                        <!-- Your form code here -->
+                        <div class="text-right">
+                            <button type="submit" class="btn btn-primary">Register</button>
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-primary">Register</button>
                 </form>
             </div>
         </div>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make Payment</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .payment-container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .bill-details {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 20px;
+            background: #f9f9f9;
+            background-color: #454d53; /* grey background color */
+            height: 100%;
+            color: #ddd;
+        }
+        .form-group {
+            margin-bottom: 1rem;
+        }
+        .custom-control-label::before,
+        .custom-control-label::after {
+            top: 0.3rem;
+            width: 1.25rem;
+            height: 1.25rem;
+        }
+        .custom-control-label {
+            margin-left: 1.5rem;
+        }
+        .row.equal-height {
+            display: flex;
+        }
+        .row.equal-height > [class*='col-'] {
+            display: flex;
+            flex-direction: column;
+        }
+        .stretch {
+            flex-grow: 1;
+        }
+        .red-border {
+            border: 2px solid red;
+            padding: 15px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        .white-border{
+            border: #ddd;
+            padding: 15px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        .text-blue {
+            color: rgb(84, 169, 211);
+            text-align: right;
+        }
+        .rounded {
+    border-radius: 100px; /* Adjust the value to control the roundness */
+        }
+        .active {
+    background-color: #007bff; /* Change background color to active color */
+    color: #fff; /* Change text color to active color */
+       }        
+    </style>
+</head>
+<body>
+
+<div class="container payment-container">
+    <h2>Make payment</h2>
+    
+    <div class="row equal-height">
+        <div class="col-md-4">
+            <div class="bill-details stretch">
+                <h5>Bill details</h5>
+                <hr>
+                <p><strong>Latest bill:</strong> August 23, 2021</p>
+                <hr>
+                <p><strong>Payment due:</strong> September 23, 2021</p>
+                <hr>
+                <p><strong>Current balance:</strong>$108.66</p>
+                <small>Balance as of 09/09/2021</small>
+                <hr>
+                <p>Your current balance is up to date as of September 9, 2021 and may not reflect Pay Per View (PPV) and On Demand purchases and/or payments made within the last 48 hours.</p>
+            </div>
+            
+        </div>
+        
+        <div class="col-md-8">
+            <form>
+                <div class="form-group">
+                    <h5>01 Payment method</h5>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="payTotalBalance" name="paymentAmount" class="custom-control-input" checked>
+                        <label class="custom-control-label" for="payTotalBalance">Pay total balance</label>
+                        <span class="float-right font-weight-bold">$108.66</span>
+
+                    </div>
+                    <br>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="payAmount" name="paymentAmount" class="custom-control-input">
+                        <label class="custom-control-label" for="payAmount">Pay amount</label>
+                        <input type="number" class="form-control d-inline-block float-right" placeholder="0.00" style="width: 100px; margin-left: 10px; background-color: rgb(212, 230, 242);">
+                    </div>
+                </div>
+                <br>
+                <hr>
+                <div class="payment-method">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h5>02 Payment method</h5>
+                        <img src="pay.png" alt="Payment Method" class="img-fluid" style="max-width: 150px;">
+                    </div>
+                    <div class="form-group">
+                        <label for="nameOnCard">Name on card</label>
+                        <input type="text" class="form-control" id="nameOnCard" placeholder="Name on card">
+                    </div>
+                    <div class="form-group">
+                        <label for="cardNumber">Card number</label>
+                        <input type="text" class="form-control" id="cardNumber" placeholder="Card number">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="expiryDate">Expiry date</label>
+                            <input type="text" class="form-control" id="expiryDate" placeholder="MM/YY">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="securityCode">Security code</label>
+                            <input type="text" class="form-control" id="securityCode" placeholder="3 to 4 digits">
+                        </div>
+                    </div>
+                    <div class="text-blue">
+                        <medium><a style="color: rgb(6, 155, 224);">What's this?^</a></medium>
+                    </div>
+                    <div class="white-border">
+                         <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="saveCard">
+                                <label class="form-check-label" for="saveCard">Save credit card</label>
+                                <small class="form-text text-muted">This will save you time and steps for future payments, but please avoid prepaid credit cards which cannot be saved in our system.</small>
+                            </div>
+                    </div>
+                    <div class="red-border">
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="autoPayments">
+                            <label class="form-check-label" for="autoPayments">Set up Auto Payments</label>
+                            <small class="form-text text-muted">The safe, convenient and on-time way to make all your future payments. Opt in today, knowing you can change it at any time.</small>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <button type="button" class="btn btn-primary rounded toggle-btn" data-toggle="pay">Pay now</button>
+                <button type="button" class="btn btn-secondary rounded toggle-btn" data-toggle="cancel">Cancel</button>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
